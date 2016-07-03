@@ -1,1 +1,1 @@
-web: bin/hubot -a slack -n robot
+web: bin/hubot -a slack -n learnbot
