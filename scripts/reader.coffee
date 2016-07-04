@@ -17,7 +17,6 @@
 module.exports = (robot) ->
   robot.respond /reader me (.*)/i, (msg) ->
     searchQuery = msg.match[1]
-    console.log searchQuery
 
     articleSearch msg, searchQuery
 
